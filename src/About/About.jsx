@@ -1,3 +1,4 @@
+import NavBar from '../NavBar/NavBar'
 import { Link } from "react-router-dom"
 import { makeStyles } from '@material-ui/core/styles'
 import GitHubIcon from '@material-ui/icons/GitHub'
@@ -42,6 +43,8 @@ const About = () => {
     const classes = useStyles()
 
     return (
+        <>
+        <NavBar />
         <div className={classes.aboutContainer}>
             <div className={classes.bioContainer}>
                 <p className={classes.bio}>
@@ -66,6 +69,7 @@ const About = () => {
                 </a>
             </div>
         </div>
+        </>
     )
 }
 

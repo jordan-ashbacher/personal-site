@@ -1,9 +1,9 @@
-import './Contact.css'
+import NavBar from '../NavBar/NavBar'
 
 const Contact = () => {
 
     return(
-        <h1>CONTACT</h1>
+        <NavBar />
     )
 }
 

@@ -1,9 +1,9 @@
-import './Work.css'
+import NavBar from '../NavBar/NavBar'
 
 const Work = () => {
 
     return(
-        <h1>WORK</h1>
+        <NavBar />
     )
 }
 
