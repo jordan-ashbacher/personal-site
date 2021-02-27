@@ -1,9 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Bagerich';
+  src: local('../fonts/Bagerich/BagerichRegular.eot') format('eot');
+  src: local('../fonts/Bagerich/BagerichRegular.svg') format('svg');
+  src: local('../fonts/Bagerich/BagerichRegular.ttf') format('ttf');
+  src: local('../fonts/Bagerich/BagerichRegular.woff') format('woff');
+  src: local('../fonts/Bagerich/BagerichRegular.woff2') format('woff2');
+}
+
 .App {
+  display: flex;
+  flex-flow: column;
   text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vmin;
+  background-color: #2a2a2a;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100vmin;
   pointer-events: none;
 }
 
