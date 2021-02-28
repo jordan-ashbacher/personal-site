@@ -11,6 +11,19 @@
   src: local('../fonts/Bagerich/BagerichRegular.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: "Brightfate";
+  src: local('../fonts/Brightfate/BrightfateRegular.eot' format('eot'));
+  src: local('../fonts/Brightfate/BrightfateRegular.svg' format('svg'));
+  src: local('../fonts/Brightfate/BrightfateRegular.ttf' format('tff'));
+  src: local('../fonts/Brightfate/BrightfateRegular.woff' format('woff'));
+  src: local('../fonts/Brightfate/BrightfateRegular.woff2' format('woff2'));
+}
+
+html {
+  background-color: #2a2a2a;
+}
+
 .App {
   display: flex;
   flex-flow: column;
@@ -18,7 +31,7 @@
   /* justify-content: center; */
   /* align-items: center; */
   height: 100vmin;
-  background-color: #2a2a2a;
+  
 }
 
 .App-logo {

@@ -3,23 +3,24 @@ import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles({
     navContainer: {
-        height: "50px",
+        height: "5vmin",
         display: "flex",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        marginTop: "10px",
     },
     navLinkContainer: {
         display: "flex",
         flexFlow: "row",
         alignItems: "center",
         height: "100%",
-        width: "20%",
+        width: "10%",
         justifyContent: "space-between",
-        marginRight: "20px",
+        marginRight: "40px",
     },
     linkItem: {
         textDecoration: "none",
         color: "#fafafa",
-        fontSize: "1.25rem"
+        fontSize: "1.5rem"
     },
     navTitleContainer: {
         height: "100%",
@@ -29,10 +30,10 @@ const useStyles = makeStyles({
     navTitle: {
         fontFamily: "'Bagerich', sans-serif",
         color: "#fafafa",
-        marginLeft: "20px",
+        marginLeft: "30px",
         marginBottom: "0px",
         textDecoration: "none",
-        fontSize: "1.5rem",
+        fontSize: "2rem",
         marginTop: "10px",
     },
 })
@@ -51,9 +52,6 @@ const NavBar = () => {
                 </Link>
                 <Link to="/about" className={classes.linkItem}>
                     about
-                </Link>
-                <Link to="/contact" className={classes.linkItem}>
-                    contact
                 </Link>
             </div>
         </div>
